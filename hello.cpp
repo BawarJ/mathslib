@@ -1,5 +1,6 @@
 #include <iostream>
+#include "message.h"
 
 int main(int argc, char *argv[]) {
-    std::cout << "Hello, world!" << std::endl;
+    std::cout << msg << std::endl;
 }
