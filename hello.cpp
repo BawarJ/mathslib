@@ -25,6 +25,6 @@ int main(int argc, char *argv[])
     int d = multiply(a,b);
     cout << "The two numbers you entered multiplied together = " << d << endl;
     int e = subtractor(a,b);
-    cout << "The two numbers you entered multiplied together = " << e << endl;
+    cout << "The two numbers you entered subtracted from one another = " << e << endl;
     return 0;
 }
