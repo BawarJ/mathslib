@@ -1,6 +1,7 @@
 #include "adder.h"
 #include "prodder.h"
 #include "subtractor.h"
+#include "divider.h"
 // As said before, the declaration of add is
 // needed also here, where the function is used.
 // Good thing we set it aside in a header file.
@@ -26,5 +27,8 @@ int main(int argc, char *argv[])
     cout << "The two numbers you entered multiplied together = " << d << endl;
     int e = subtractor(a,b);
     cout << "The two numbers you entered subtracted from one another = " << e << endl;
-    return 0;
+    int f = divide(a,b);
+    cout<< "The two numbers you entered divided = " << f << endl;
+
+return 0;
 }

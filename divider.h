@@ -1,5 +1,5 @@
-#ifndef MATHSLIB_ADDER_H
-#define MATHSLIB_ADDER_H
+#ifndef MATHSLIB_DIVIDER_H
+#define MATHSLIB_DIVIDER_H
 
 #ifdef MATHSLIB_EXPORTS
 #define MATHSLIB_API __declspec(dllexport)
@@ -12,5 +12,6 @@
 // __declspec(dllimport)
 // before declarations. This is a Microsoft specific
 // extension to C/C++
-MATHSLIB_API int add(int a, int b);
+
+MATHSLIB_API int divide(int a, int b);
 #endif
